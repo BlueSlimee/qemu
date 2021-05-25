@@ -3464,7 +3464,7 @@ else
     fi
   done
 fi
-
+pthread=yes
 if test "$mingw32" != yes && test "$pthread" = no; then
   error_exit "pthread check failed" \
       "Make sure to have the pthread libs and headers installed."
